@@ -1,0 +1,21 @@
+Chat Application Documentation:
+
+
+This document provides an overview of the chat application, detailing the implementation of real-time messaging, theming adaptation, and code highlighting.
+
+1. Real-time Messaging
+2. Theming Adaptation
+
+
+Real-time Messaging:
+The chat application uses Socket.IO for real-time messaging between the client and the server. Socket.IO is a library that enables real-time, bidirectional, and event-based communication.
+
+Theming Adaptation:
+The chat application supports light and dark themes using React context and CSS variables.
+
+
+How to run:
+
+-cd server->npm start(runs nodemon server.js, runs http on localhost:4000)
+
+-cd client->npm start(runs react server on localhost:3000)
